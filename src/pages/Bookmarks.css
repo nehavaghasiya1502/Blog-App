@@ -1,0 +1,31 @@
+.bookmarks-page{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.bookmark-title{
+margin-bottom:20px;
+}
+
+.empty{
+color:#666;
+}
+
+.bookmark-card{
+position:relative;
+}
+
+.remove-btn{
+margin-top:10px;
+border:none;
+background:#ff2e63;
+color:white;
+padding:6px 12px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.remove-btn:hover{
+background:#e62458;
+}

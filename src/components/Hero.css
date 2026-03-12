@@ -1,0 +1,22 @@
+.hero{
+padding:120px 80px;
+background:#fafafa;
+}
+
+.hero h1{
+font-size:80px;
+font-weight:800;
+}
+
+.hero h2{
+font-size:80px;
+font-weight:800;
+color:#ff2e63;
+}
+
+.hero p{
+margin-top:20px;
+font-size:18px;
+color:#555;
+max-width:600px;
+}

@@ -1,4 +1,4 @@
-const API_KEY = "16da5b8d52b749ddbb4e6983ba35102f";
+const API_KEY = process.env.REACT_APP_NEWS_API_KEY;
 
 export const fetchNews = async (category) => {
 
@@ -16,4 +16,5 @@ export const fetchNews = async (category) => {
   console.log("API RESPONSE:", data);
 
   return data.articles;
+
 };

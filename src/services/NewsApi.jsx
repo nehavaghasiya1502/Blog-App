@@ -9,7 +9,7 @@ export const fetchNews = async (category) => {
   } else {
     url = `https://newsapi.org/v2/everything?q=${category}&pageSize=20&apiKey=${API_KEY}`;
   }
-
+console.log("API KEY:", API_KEY);
   const res = await fetch(url);
   const data = await res.json();
 
